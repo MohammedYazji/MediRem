@@ -1,0 +1,52 @@
+name: medirem
+description: Medicine reminder app
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_bloc: ^8.1.4
+  bloc: ^8.1.3
+  # Dependency injection
+  get_it: ^7.6.7
+  # Functional programming (Either, Option)
+  dartz: ^0.10.1
+  # Value equality
+  equatable: ^2.0.5
+  # Local database
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.2
+  # Navigation
+  go_router: ^13.2.0
+  # Notifications / reminders
+  flutter_local_notifications: ^17.1.2
+  timezone: ^0.9.3
+  flutter_timezone: ^1.0.8
+  # Charts for home stats
+  fl_chart: ^0.68.0
+  # UI extras
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.2.1
+  iconsax: ^0.0.8
+  # Utilities
+  uuid: ^4.3.3
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+  # Isar code generation
+  isar_generator: ^3.1.0+1
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
