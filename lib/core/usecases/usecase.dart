@@ -5,7 +5,7 @@ import '../error/failures.dart';
 /// The base class for all use cases.
 /// [Type] is what it returns on success.
 /// [params] is what it receives as input.
-abstract class Usecase<Type, params> {
+abstract class UseCase<Type, params> {
   Future<Either<Failure, Type>> call(params params);
 }
 
